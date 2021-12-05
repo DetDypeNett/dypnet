@@ -1,4 +1,24 @@
 baseURL = 'https://DetDypeNett.github.io/'
 languageCode = 'en-us'
 title = 'Dypnet'
-theme = 'blackburn'
+theme = 'terminal'
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'om dypnet'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+  weight = -110
+[[menu.main]]
+  name = 'bjorli_games'
+  post = "<span class='alert'>New!</span>"
+  pre = "<i class='fa fa-road'></i>"
+  url = '/bjorli_games/'
+  weight = -100
+
+
+[params]
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
