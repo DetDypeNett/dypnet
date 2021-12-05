@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dypnet</title>
+    <link>https://detdypenett.github.io/post/</link>
+    <description>Recent content in Posts on Dypnet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 13:59:26 +0100</lastBuildDate><atom:link href="https://detdypenett.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bjorli Games September 2021</title>
+      <link>https://detdypenett.github.io/post/bjorli_games_sep_2021/</link>
+      <pubDate>Sun, 05 Dec 2021 13:59:26 +0100</pubDate>
+      
+      <guid>https://detdypenett.github.io/post/bjorli_games_sep_2021/</guid>
+      <description>Bjorli-games september 2021 Vår første runde</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+baseURL = 'https://detdypenett.github.io/'
+languageCode = 'en-us'
+title = 'Dypnet'
+theme = 'blackburn'
