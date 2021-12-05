@@ -22,3 +22,5 @@ theme = 'terminal'
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "green"
+
+  showLastUpdated = false
