@@ -1,26 +1,18 @@
-baseURL = 'https://DetDypeNett.github.io/'
-languageCode = 'en-us'
+baseURL = 'https://dypnet.no/'
+languageCode = 'no-nb'
 title = 'Dypnet'
-theme = 'terminal'
+theme = 'dypnet'
 
 [menu]
-[[menu.main]]
-  identifier = 'about'
-  name = 'om dypnet'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
-  weight = -110
-[[menu.main]]
-  name = 'bjorli_games'
-  post = "<span class='alert'>New!</span>"
-  pre = "<i class='fa fa-road'></i>"
-  url = '/bjorli_games/'
-  weight = -100
+  [[menu.main]]
+    identifier = "om"
+    name = "Om"
+    url = "/om"
+    weight = 10
 
+  [[menu.main]]
+    identifier = "leika"
+    name = "Bjorlileikane"
+    url = "/bjorlileikane"
+    weight = 20
 
-[params]
-
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
-
-  showLastUpdated = false

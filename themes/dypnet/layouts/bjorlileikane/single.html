@@ -1,0 +1,45 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ $poengfil := index .Site.Data.bjorli.leika .Params.poengfil }}
+{{ $.Scratch.Set "count" 0 }}
+<table id="poeng">
+{{ range $table := $poengfil}}  
+  {{ range $row := $table }}
+    <tr>
+    {{ range $datas := $row }}
+      {{ range $data := $datas }}
+        {{ if eq 0 ($.Scratch.Get "count") }}
+        <th> 
+          {{ . }}
+        </th>
+        {{ else }}
+        <td> 
+          {{ . }}
+        </td>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    </tr>
+    {{ $.Scratch.Add "count" 1 }}
+  {{ end }}
+{{ end }}
+</table>
+<hr>
+{{ $regelfil := index .Site.Data.bjorli.leika .Params.regelfil }}
+{{ range $lek := $regelfil}}
+	<h2>{{ $lek.navn }}</h3>
+	<h3>Beskrivelse:</h3>
+	<p>{{ $lek.beskrivelse }}</p>
+	<h3>Regler:</h3>
+	<ul>
+	{{ range $lek.regler }}
+	  <li>{{ . }}</li>
+	{{ end }}
+	</ul>
+	<hr>
+{{ end }}
+
+{{ partial "footer.html" . }}
+
