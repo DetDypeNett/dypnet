@@ -52,7 +52,7 @@
 - lek5:
   navn: Blindtest
   beskrivelse: Smaksansutfordring
-  regel:
+  regler:
     - 'Hver deltaker blir utdelt en smaksprøve av øl i runder'
     - 'Deltakeren må så skrive ned hvilken øl de tror det er ut ifra listen av mulige ølmerker og type'
     - 'riktig merke gir 2 poeng'
