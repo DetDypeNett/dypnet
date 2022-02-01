@@ -18,7 +18,7 @@
 
 - lek2:
   navn: The Amazing Labyrinth
-  beskrivelse: Brettspillet The Amaxing Labyrinth med noe modifisert regelsett
+  beskrivelse: Brettspillet The Amazing Labyrinth med noe modifisert regelsett
   regler:
     - 'Vinneren blir bestemt ut ifra brettspillet "The Amazing Labyrinth"s regler'
     - 'Hvem som spiller mot hverandre blir bestemt ut ifra tilfeldig trekning'
