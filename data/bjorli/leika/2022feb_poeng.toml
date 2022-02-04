@@ -1,7 +1,7 @@
 
 [table]
   [[row]]
-  data = ["Klask", "total"]
+  data = ['', "Klask", "total"]
   [[row]]
   data = ["Joakim", 5, 5]
   [[row]]
