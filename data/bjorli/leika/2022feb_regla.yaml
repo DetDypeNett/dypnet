@@ -4,4 +4,9 @@
   regler:
     - 'De øvrige reglene i Klask gjelder'
     - 'Spiller full turnering (winners og losers bracket) med alle mot alle og rangeres der etter'
-
+- lek1:
+  navn: Everyday I'm Shuffeling
+  beskrivelse:
+  regler:
+    - 'Alle spiller ei runde hver med alle steiner, lavest antall poeng gikk ut'
+    - 'Resten blir spilt som turnering'
