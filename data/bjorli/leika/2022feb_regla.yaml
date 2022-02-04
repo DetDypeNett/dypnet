@@ -1,6 +1,7 @@
 - lek0:
-  navn: 
-  beskrivelse: 
+  navn: Klaskturnering
+  beskrivelse: Spiller magnetspillet Klask
   regler:
-    - ''
+    - 'De øvrige reglene i Klask gjelder'
+    - 'Spiller full turnering (winners og losers bracket) med alle mot alle og rangeres der etter'
 
