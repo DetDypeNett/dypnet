@@ -10,3 +10,12 @@
   regler:
     - 'Alle spiller ei runde hver med alle steiner, lavest antall poeng gikk ut'
     - 'Resten blir spilt som turnering'
+- lek2:
+  navn: Jenga
+  beskrivelse: modifisert Jenga
+  regler:
+    - 'Spiller tre runder'
+    - 'noterer ned antall brikker trukket ut per spiller'
+    - 'Første som velter får sisteplass, osv.'
+    - 'til slutt de som ikke har veltet teller opp hvor mange brikker de har trukket'
+    - 'lavest antall trekk gir første plass osv.'
