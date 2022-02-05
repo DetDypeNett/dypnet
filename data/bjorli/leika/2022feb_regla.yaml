@@ -30,3 +30,11 @@
     - 'Når en spiller treffer blinken flytter spilleren seg til neste avstand'
     - 'Når man treffer blinken trekker man en lapp og følger dens instruksjoner'
     - 'vinneren er den som kommer først til siste steg og treffer der ifra'
+- lek4:
+  navn: Maishøl
+  beskrivelse: Spillet Corn hole 
+  regler:
+    - 'Øvrige cornhole-regler gjelder'
+    - 'Spiller turnering'
+    - 'Alle spillere skal ha like mange kast'
+    - 'Førstemann som når 21 eller mer vinner kampen' 
