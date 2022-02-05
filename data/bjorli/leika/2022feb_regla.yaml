@@ -21,3 +21,12 @@
     - 'lavest antall trekk gir første plass osv.'
     - 'kaster terning for å bestemme hvem som begynner, høyeste begynner'
     - 'uavgjorte kaster terning, laveste vinner'
+- lek3:
+  navn: Snykastrulette
+  beskrivelse: Kaste snøball på blink og flytter seg stegvis vekk for hvert treff
+  regler:
+    - 'Alle starter nærmest blink'
+    - 'Kaster etter en forhåndsbestemt rekkefølge'
+    - 'Når en spiller treffer blinken flytter spilleren seg til neste avstand'
+    - 'Når man treffer blinken trekker man en lapp og følger dens instruksjoner'
+    - 'vinneren er den som kommer først til siste steg og treffer der ifra'
